@@ -1,0 +1,110 @@
+
+
+.map1 {
+    position:relative;
+   
+}
+.dot{
+    position:absolute;
+    
+}
+body{
+    background: rgb(253,187,45);
+background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(34,193,195,1) 100%);
+
+background-repeat:no-repeat;
+}
+.dot:hover{
+ opacity: 0.5;
+}
+
+*{ margin: 0,0,0}
+.title{ 
+    font : caption;
+    font-family:  Helvetica, sans-serif ;
+    display: inline;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 1.5em;
+    color:black;
+}
+.navbar{
+    background-image: linear-gradient( rgb(117, 142, 175), rgb(164, 190, 238));
+}
+.logo{
+    width: 100px;
+    height:100px;
+}
+.d-block {
+   height : 628px;
+   width: 100%;
+   position: center
+}
+.change{
+    color: darkslategray;
+    font-weight: bold
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  #gallery {
+    border: 1px solid #efefef;
+    padding: 4px 0 0 0;
+  }
+  
+  #gallery img {
+    margin: 8px;
+    width: 300px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  #gallery img:hover {
+    margin: 8px;
+    opacity: .8;
+  }
+  
+  header h1 {
+    font-weight: 700;
+    margin-left: 8px;
+  }
+  
+  #buttons button {
+    border: 1px solid #efefef;
+    margin-right: 8px;
+    border: 0;
+    padding: 8px;
+    border-radius: 3px;
+  }
+  
+  #buttons button.active {
+    background-color: #bbb;
+    color: #111;
+  }
+  
+  #buttons {
+    margin: 8px;
+    padding-bottom: 8px;
+  }
+  
+  #search {
+    margin: 8px;
+  }
+  
+  input[type="text"]{
+    border-radius: 3px;
+    border: 1px solid #efefef;
+    padding: 0 8px;
+  }
+  
+  button:hover{
+    background-color: #111;
+    color: #fff;
+  }
+  body{
+    background: rgb(253,187,45);
+    background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(218,69,69,0.40379901960784315) 50%, rgba(95,172,233,0.4514180672268907) 100%);
+  }
